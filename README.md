@@ -27,3 +27,4 @@ Docker PHP is an Open Source project and contributions are welcome. The 'main' b
 # Branches Order
 
 * Create Docker Compose ```create_docker_compose```
+* Create Simple Nginx Service ```nginx-web-service```
