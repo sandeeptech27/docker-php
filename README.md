@@ -30,3 +30,4 @@ Docker PHP is an Open Source project and contributions are welcome. The 'main' b
 * Create Simple Nginx Service ```nginx-web-service```
 * Create PHP DockerFile ```php-docker```
 * Nginx Configuration ```nginx-configuration```
+* Volume Mapping ```volume-mapping```
