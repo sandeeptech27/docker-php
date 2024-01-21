@@ -36,3 +36,12 @@ Docker PHP is an Open Source project and contributions are welcome. The 'main' b
 * Environment Variables ```dev-build.json```
 * Add Redis ```Adding redis configuration```
 * Add Xdebug ```Adding xdebug configuration```
+
+# Commands - Instructions - To be given detailed information later
+
+* docker compose up
+* docker compose up --build
+* docker compose down
+* docker compose build
+* docker compose -f docker-compose.dev.yaml up --build -d
+* docker compose -f docker-compose.dev.yaml --env_file .env.local up --build -d
