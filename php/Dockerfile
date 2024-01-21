@@ -1,6 +1,11 @@
 FROM php:8.3-fpm
 
-RUN docker-php-ext-install pdo pdo_mysql
+RUN apt-get update && apt-get install -y \
+    zlib1g-dev \
+    libzip-dev
+
+# extensions
+RUN docker-php-ext-install pdo pdo_mysql zip
 
 # allow super user - set this if you use Composer as a
 # super user at all times like in docker containers
