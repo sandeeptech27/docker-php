@@ -6,7 +6,7 @@ services:
             - "80:80"
     # php
     app:
-        image: sandeep27/php-composer:1.2
+        image: sandeep27/php-composer:1.0
         environment:
             MYSQL_HOST: db
             MYSQL_PORT: ${MYSQL_PORT}
