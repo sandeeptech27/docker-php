@@ -33,3 +33,5 @@ Docker PHP is an Open Source project and contributions are welcome. The 'main' b
 * DB configuration ```add-sql```
 * Adding composer.json ```add-composer.json```
 * Development Build ```dev-build.json```
+* Environment Variables ```dev-build.json```
+* Add Redis ```Adding redis cache```
