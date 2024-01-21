@@ -11,7 +11,8 @@ services:
         build:
             dockerfile: ./php/Dockerfile
         volumes:
-            - ./src:/src
+            - /var/www/html/vendor
+            - ./src:/var/www/html
     # mysql
     db:
         image: mysql:latest
