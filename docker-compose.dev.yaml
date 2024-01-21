@@ -11,7 +11,7 @@ services:
         build:
             dockerfile: ./php/Dockerfile
         volumes:
-            - ./src:/var/www/html
+            - ./app:/var/www/html
             - ./php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini:ro
         environment:
             MYSQL_HOST: db
