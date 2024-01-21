@@ -23,3 +23,13 @@ Contributing
 Docker PHP is an Open Source project and contributions are welcome. The 'main' branch is read-only as this should not differ from the tutorials so please send pull requests to the develop branch.
 
 [1]: https://github.com/sandeeptech27/docker-php
+
+# Branches Order
+
+* Create Docker Compose ```create_docker_compose```
+* Create Simple Nginx Service ```nginx-web-service```
+* Create PHP DockerFile ```php-docker```
+* Nginx Configuration ```nginx-configuration```
+* DB configuration ```add-sql```
+* Adding composer.json ```add-composer.json```
+* Development Build ```dev-build.json```
