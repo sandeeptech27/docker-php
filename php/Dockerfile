@@ -1,6 +1,7 @@
 FROM php:8.3-fpm as app
 
 RUN apt-get update && apt-get install -y \
+    zip \
     zlib1g-dev \
     libzip-dev \
     git

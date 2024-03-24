@@ -41,4 +41,4 @@ Docker PHP is an Open Source project and contributions are welcome. The 'main' b
 - docker compose down
 - docker compose build
 - docker compose -f docker-compose.dev.yaml up --build -d
-- docker compose -f docker-compose.dev.yaml --env-file .env.local up --build -d
+- docker compose -f docker-compose.dev.yaml --env-file .env.dev up --build -d
